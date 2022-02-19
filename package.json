@@ -1,0 +1,34 @@
+{
+  "name": "course-prof-review",
+  "version": "1.0.0",
+  "description": "Course-Prof-Review-portal",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "test": "NODE_ENV=test mocha --exit tests/**/*.js",
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "start": "npm install && node index.js"
+  },
+  "author": "\"Shubh Deep\"",
+  "license": "ISC",
+  "dependencies": {
+    "chai-http": "^4.3.0",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "create-react-app": "^3.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-device": "^0.4.2",
+    "mongoose": "^5.9.1",
+    "nodemon": "^2.0.2",
+    "passport": "^0.4.1",
+    "passport-google-oauth": "^2.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cypress": "^4.8.0",
+    "mocha": "^7.1.1",
+    "supertest": "^4.0.2"
+  }
+}

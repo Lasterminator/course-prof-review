@@ -1,2 +1,2 @@
 # course-prof-review
-Course Professor review
+A portal for reviewing college professors and courses
