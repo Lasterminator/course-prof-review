@@ -9,7 +9,7 @@
     "heroku-postbuild": "cd client && npm install && npm run build",
     "start": "npm install && node index.js"
   },
-  "author": "\"Shubh Deep\"",
+  "author": "\"Shubh Deep, Subhash Reddy, Desu Sree Harsha\"",
   "license": "ISC",
   "dependencies": {
     "chai-http": "^4.3.0",
