@@ -7,6 +7,8 @@
     "cypress": "cypress open",
     "test": "NODE_ENV=test mocha --exit tests/**/*.js",
     "heroku-postbuild": "cd client && npm install && npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "npm install && node index.js"
   },
   "author": "\"Shubh Deep, Subhash Reddy, Desu Sree Harsha\"",
